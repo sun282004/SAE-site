@@ -15,9 +15,16 @@ body>footer {
 }
 
 img {
-    width: 10%;
+    width: 100%;
 }
 
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0 0 10px;
+  }
 
 .analyses>article>img {
     width: 120%;
@@ -28,7 +35,7 @@ header {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -43,7 +50,7 @@ article>p {
 .analyses {
     display: grid;
     grid-template-columns: repeat(14, 1fr);
-    grid-template-rows: repeat(17, 55px);
+    grid-template-rows: repeat(18, 55px);
     grid-gap: 20px;
 }
 
@@ -70,4 +77,24 @@ article>p {
 .article5 {
     grid-column: 1 / 6;
     grid-row: 12;
+}
+
+.solutions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.solutions>article {
+    width: 550px;
+}
+
+.solutions>article>p {
+    width: 550px;
+}
+
+.solutions>article>h2 {
+    text-align: center;
+    font-size: x-large;
 }
