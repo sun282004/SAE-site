@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Accueil</title>
+	<link rel="stylesheet" href="resources/css.css"/>
+</head>
+<body>
+	<header>
+		<img src="resources/images/logo.jpg" alt="Logo du site" />
+	</header>
+	<main>
+		<h1>Analyse</h1>
+		<section class="analyses">
+
+			<article class="article1">
+				<img src="resources/images/interet.png" alt="Interet pour le financement d'un mode de transport ecologique" />
+				<p>
+					Intérêt pour le financement d’un mode de transport écologique : La moitié des répondants (2 sur 5) se disent intéressés par des solutions de financement pour l’achat d’un mode de transport plus écologique.
+				</p>
+			</article>
+
+			<article class="article2">
+				<img src="resources/images/deplacements_en_ville.png" alt="Modes de deplacement en ville les plus plebiscites" />
+				<p>
+					Parmi les options proposées, les plus plébiscitées sont les transports en commun (4 sur 5) et les vélos électriques (2 sur 5).
+				</p>
+			</article>
+
+			<article class="article3">
+				<img src="resources/images/criteres.png" alt="Criteres de selections des modes de transports" />
+				<p>
+					Les critères les plus importants pour choisir un mode de transport écologique sont le coût, l’autonomie et la facilité d’utilisation (4 sur 5 chacun).
+				</p>
+			</article>
+
+			<article class="article4">
+				<img src="resources/images/avantages.png" alt="Avantages recherches dans un mode de transport ecologique" />
+				<p>
+					Avantages recherchés dans un mode de transport écologique : Tous les répondants (5 sur 5) citent la réduction des émissions de CO2 comme un avantage recherché dans un mode de transport écologique. D’autres avantages mentionnés sont l’amélioration de la qualité de l’air, l’impact positif sur la santé et le bien-être, et les économies sur les coûts de carburant (3 sur 5 chacun).
+				</p>
+			</article>
+
+			<article class="article5">
+				<img src="resources/images/financement.png" alt="Informations les plus demandees concernant le fincancement des modes de transport ecologiques" />
+				<p>
+					Informations souhaitées concernant le financement d’un mode de transport écologique : Les informations les plus demandées concernant le financement d’un mode de transport écologique sont les conditions de remboursement (5 sur 5) et les avantages spécifiques pour les utilisateurs de modes de transport écologiques (4 sur 5). Une seule personne a exprimé un besoin spécifique, qui est une aide financière.
+				</p>
+			</article>
+
+		</section>
+		<h1>Solutions</h1>
+		<section class = "solutions">
+
+			<article>
+				<h2>Covoiturage</h2>
+				<img src="resources/images/covoit.jpg" alt="Logo du site" />
+			</article>
+			<article>
+				<p> Vous pouvez encourager vos employés à partager leur voiture avec d’autres collègues qui habitent à proximité ou sur le même trajet. Cela permet de réduire le nombre de véhicules sur la route et donc les émissions de CO2. Vous pouvez aussi financer une partie du coût du carburant ou des places de parking réservées aux covoitureurs.</p>
+				<p>Nous vous proposerons le meilleur service :</p>
+				<form action="envoiSolution.html">
+					<label for="mail">Mail :</label><br>
+					<input type="text" id="mail" name="mail"><br>
+					<label for="depart">Lieu Départ :</label><br>
+					<input type="text" id="depart" name="depart"><br>
+					<label for="arrivee">Lieu Arivée :</label><br>
+					<input type="text" id="arrivee" name="arrivee"><br>
+					<label for="nbPers">Nombre de personnes:</label><br>
+					<input type="text" id="nbPers" name="nbPers"><br>
+					<br>
+					<input type="submit" value="Trouver">
+				  </form>
+			</article>
+			
+			<article>
+				<p>Vous pouvez proposer à vos employés des modes de déplacement doux et écologiques comme la trottinette ou le vélo électrique. Ces engins sont pratiques, rapides et peu encombrants. Vous pouvez les mettre à disposition gratuitement ou à un tarif préférentiel, et prévoir des places de parking sécurisées et des bornes de recharge.</p>
+				<p>Nous vous proposerons le meilleur service :</p>
+				<form action="envoiSolution.html">
+					<label for="mail">Mail :</label><br>
+					<input type="text" id="mail" name="mail"><br>
+					<label for="adresse">Adresse :</label><br>
+					<input type="text" id="adresse" name="adresse"><br>
+					<label for="prix">Prix :</label><br>
+					<input type="text" id="prix" name="prix"><br>
+					<p>Type de transport :</p>
+					<input type="checkbox" id="trottinette" name="trottinette" value="trottinette">
+					<label for="trottinette">Trottinette</label><br>
+					<input type="checkbox" id="velo" name="velo" value="velo">
+					<label for="vélo">vélo</label><br>
+
+					<br>
+					<input type="submit" value="Trouver">
+				  </form>
+			</article>
+			<article>
+				<h2>Trotinette / Vélo</h2>
+				<img src="resources/images/trotinette.jpg" alt="Logo du site" />
+			</article>
+
+			<article>
+				<h2>Transports en commun</h2>
+				<img src="resources/images/transportcommun.jpg" alt="Logo du site" />
+			</article>
+			<article>
+				<p>Vous pouvez inciter vos employés à utiliser les transports en commun (bus, tram, métro, train) pour se rendre au travail. Cela réduit également la pollution et le trafic routier. Vous pouvez prendre en charge une partie ou la totalité de l’abonnement aux transports en commun ou offrir des primes aux employés qui les utilisent régulièrement.</p>
+				<p>Nous vous proposerons le meilleur service :</p>
+				<form action="envoiSolution.html">
+					<label for="mail">Mail :</label><br>
+					<input type="text" id="mail" name="mail"><br>
+					<label for="depart">Lieu Départ :</label><br>
+					<input type="text" id="depart" name="depart"><br>
+					<label for="arrivee">Lieu Arivée :</label><br>
+					<input type="text" id="arrivee" name="arrivee"><br>
+					<label for="transport">Transport désiré :</label><br>
+					<input type="text" id="transport" name="transport"><br>
+					<br>
+					<input type="submit" value="Trouver">
+				  </form>
+			</article>
+			
+			<article>
+				<p>Vous pouvez favoriser le télétravail et les réunions à distance pour vos employés qui n’ont pas besoin d’être présents physiquement au bureau. Cela leur évite de se déplacer et de consommer de l’énergie. Vous pouvez leur fournir du matériel informatique adapté et des logiciels de visioconférence efficaces.</p>
+				<p>Nous vous proposerons le meilleur service :</p>
+				<form action="envoiSolution.html">
+					<label for="mail">Mail :</label><br>
+					<input type="text" id="mail" name="mail"><br>
+					<p>Type de logiciel :</p>
+					<input type="radio" id="gratuit" name="gratuit" value="gratuit">
+					<label for="gratuit">Gratuit</label><br>
+					<input type="radio" id="freemium" name="freemium" value="freemium">
+					<label for="freemium">Freemium</label><br>
+					<input type="radio" id="payant" name="payant" value="payant">
+					<label for="Payant">Payant</label>
+					<br>
+					<input type="submit" value="Trouver">
+				  </form>
+			</article>
+			<article>
+				<h2>Télétravail / réunion à distance</h2>
+				<img src="resources/images/teletravail.jpg" alt="Logo du site" />
+			</article>
+
+			<article>
+				<h2>énergie renouvelables</h2>
+				<img src="resources/images/energierenou.jpg" alt="Logo du site" />
+			</article>
+			<article>
+				<p>Vous pouvez investir dans des sources d’énergie renouvelable comme le solaire, l’éolien ou la biomasse pour alimenter votre entreprise. Cela réduit votre dépendance aux énergies fossiles et votre facture énergétique. Vous pouvez aussi recycler vos déchets organiques ou plastiques pour les transformer en biogaz ou en biocarburant.</p>
+				<p>Nous vous proposerons le meilleur service :</p>
+				<form action="envoiSolution.html">
+					<label for="mail">Mail :</label><br>
+					<input type="text" id="mail" name="mail"><br>
+					<label for="montant">Montant d'investissement :</label><br>
+					<input type="text" id="montant" name="montant"><br>
+					<p>Type d'énergie :</p>
+					<input type="checkbox" id="Solaire" name="Solaire" value="Solaire">
+					<label for="Solaire">Solaire</label><br>
+					<input type="checkbox" id="Eolien" name="Eolien" value="Eolien">
+					<label for="Eolien">Eolien</label><br>
+					<input type="checkbox" id="Biomasse" name="Biomasse" value="Biomasse">
+					<label for="Biomasse">Biomasse</label><br>
+					<input type="checkbox" id="Autre" name="Autre" value="Autre">
+					<label for="Autre">Autre</label>
+					<br>
+					<input type="submit" value="Trouver">
+				  </form>
+			</article>
+
+		</section>
+	</main>
+	<footer>
+		<img src="resources/images/logo.jpg" alt="Logo du site" />
+	</footer>
+</body>
+</html>
