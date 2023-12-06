@@ -35,19 +35,4 @@ input[type=text]:focus {
     border: 3px solid #555;
 }
 
-input[type=submit] {
-    background-color: #81BC00;
-    color: #212529;
 
-    font-size: 15px;
-    font-weight: bold;
-
-    border-style: none;
-    border-radius: 20px;
-    
-    display: block;
-    padding: 10px 10%;
-    margin: 20px auto;
-
-    cursor: pointer;
-}
