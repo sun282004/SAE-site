@@ -1,0 +1,93 @@
+* {
+    color: #212529;
+    font-family: sans-serif;
+}
+
+body {
+    margin-top: 200px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+body>header, body>footer {
+    background-color: #81BC00;
+}
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+  }
+
+img {
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #81BC00;
+    color: #212529;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    border-style: none;
+    border-radius: 20px;
+    
+    display: block;
+    padding: 10px 10%;
+    margin: 20px auto;
+
+    cursor: pointer;
+}
+
+button[type="disconnect"] {
+    width: 100%;
+    padding: 8px;
+    background-color:darkcyan;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  button[type="disconnect"]:hover {
+    background-color: green;
+  }
+
+footer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.legal-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .legal-links a:last-child {
+    margin-right: 0;
+  }
+
+  .newsletter {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
