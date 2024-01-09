@@ -29,8 +29,8 @@ body>header, body>footer {
     cursor: pointer;
   }
 
-img {
-    width: 100%;
+main img {
+    border-radius: 100px;
 }
 
 input[type=submit] {
@@ -50,9 +50,9 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit2] {
+input[type=submit2], button[class=button] {
   background-color:#212529;
-  color:#81BC00;
+  color:white;
 
   font-size: 15px;
   font-weight: bold;
@@ -91,7 +91,7 @@ button{
 }
 .legal-links a {
   background-color:#212529;
-  color:#81BC00;
+  color:white;
 
   font-size: 15px;
   font-weight: bold;
