@@ -15,7 +15,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 50px;
+    margin: 100px;
 }
 
 article>h2 {
@@ -47,4 +47,5 @@ img {
 
 main img {
     width: 100%;
+    border-radius: 0;
 }
