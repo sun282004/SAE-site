@@ -20,6 +20,7 @@ header {
 
 body>header, body>footer {
     background-color: #81BC00;
+    margin: -10px;
 }
 
   
@@ -72,6 +73,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 button{
   background-color:#212529;
